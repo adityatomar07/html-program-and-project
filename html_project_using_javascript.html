@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <h1>project</h1>
+    <p>here, a javascript changes the value of the src(source) attribute of an img.</p>
+    <script>
+        function light(sw){
+            var pic;
+            if(sw==0){
+                pic ="https://cssbud.com/wp-content/uploads/2023/02/bulb-1.gif"
+            } else {
+                pic ="https://cssbud.com/wp-content/uploads/2023/02/bulb-1.gif"
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+    <img id="myImage" src="https://cssbud.com/wp-content/uploads/2023/02/bulb-1.gif" alt="">
+    <p>
+    <button type="button" onclick="light(1)">light on</button>
+    <button type="button" onclick="light(0)">light off</button>
+    </p>
+</body>
+</html>
