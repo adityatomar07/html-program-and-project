@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Text input field</h2>
+
+    <form>
+        <label for="fname">First name:</label> <br>
+        <input type="text" name="" id="fname" name="fname" value="adii"><br>
+        <label for="lname">last name:</label><br>
+        <input type="text" id="lname" name="lname" value="tomar">
+    </form>
+
+    <h2>Radio buttons</h2>
+    <p>choose you favourite language : </p>
+    <form>
+        <input type="radio" id="html" name = "fav_language" value="HTML">
+        <label for="html">HTML</label> <br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>
+    
+    <h2>checkboxes</h2>
+    <p>checkboxes provide you more than one chooises , you can select many opptin <br>
+    at once time. </p>
+    <form action="form_linked.html">
+        <input type="checkbox" name="vehiclel" id="vehiclel1" value="Bike">
+        <label for="vehiclel">I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" id="vehiclel2" value="Car">
+        <label for="vehiclel2">I have a Car</label><br>
+        <input type="checkbox" name="vehiclel3" id="vehiclel3" value="Boat">
+        <label for="vehiclel3">I have a Boat</label><br><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <h2>Name Attribute</h2>
+        <form action="form_linked.html">
+        <input type="text"  id="fname" value="Adii"><br>
+        <label for="fname">First Name</label><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>The Select Element</h2>
+    <p>the select element defines a drop-down list: </p>
+    <form action="form_linked.html">
+        <label for="cars" Select your favourite Car : ></label>
+        <select name="Cars" id="cars" size="3" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="fornx">Fornx</option>
+            <option value="fortnutre">Fortnuture</option>
+        </select>
+        <input type="submit">
+        <p>hold down the ctrl button to select multiple option </p>
+    </form>
+</body>
+</html>
